@@ -1,0 +1,53 @@
+/* * style srt  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+
+/* custom property style  */
+.menu-item{
+    display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bars-title{
+    display:flex;
+    align-items: center;
+}
+.bars-title>i{
+display:none;
+}
+.nav-search{
+    display:flex;
+    align-items: center;
+}
+.bars-title h3{
+font-family:Poppins;
+font-size:24px;
+font-weight: bold;
+color:rgba(58, 58, 58, 1);
+margin-left:20px;
+}
+.nav-links ul li a{
+    text-decoration:none;
+    font-family:Poppins;
+    font-size: 16px;
+    color:rgba(58, 58, 58, 1);
+
+}
+.nav-links ul{
+    display:flex;
+   
+}
+.nav-links ul li{
+    margin-left:40px;
+    list-style:none;
+}
+.search-bar i{
+    margin-left:20px;
+    
+}
