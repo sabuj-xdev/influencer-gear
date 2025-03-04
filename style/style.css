@@ -13,6 +13,7 @@
     display:flex;
   align-items: center;
   justify-content: space-around;
+  margin-top:40px;
 }
 .bars-title{
     display:flex;
@@ -50,4 +51,77 @@ margin-left:20px;
 .search-bar i{
     margin-left:20px;
     
+}
+/* new  section design   */
+
+
+.journey-camera{
+    display:flex;
+    margin-left:160px;
+}
+.journey{
+    width:37rem;
+    margin-top:120px;
+}
+.journey h1{
+    font-family:Poppins;
+    font-weight: bold;
+    font-size:36px;
+    line-height: 50px;
+    color:rgba(58, 58, 58, 1);
+}
+.journey p{
+    font-family:Poppins;
+    font-weight:600px;
+    font-size:14px;
+    color:rgba(58, 58, 58, 1);
+    margin-top:16px;
+}
+.journey button{
+    font-family:Poppins;
+    font-weight:600px;
+    font-size:14px;
+    margin-top:15px;
+    background-color: rgba(224, 44, 109, 1);
+    color:rgba(255, 255, 255, 1);
+    border-radius:10px;
+    padding:5px 10px;
+    border:none;
+}
+.camera{
+    margin-top:60px;
+    margin-left:80px;
+    /* z-index: 1; */
+} 
+#circle{
+    width:25rem;
+    position:absolute;
+
+}
+#main-camera{
+    width:22rem;
+    position:relative; 
+    top:60px;
+    left:12px;
+}
+/* responsive design */
+@media screen and (max-width:576px) {
+    .bars-title>i{
+        display:flex;
+        }
+        .nav-links ul {
+            display:none;
+        } 
+        #search-icon{
+            display:none;
+        }
+        .menu-item{
+            display:flex;
+          align-items: center;
+          justify-content:space-around;
+          margin-top:50px;
+        }  
+        .bars-title h3{
+            margin-left:70px;
+        }
 }
